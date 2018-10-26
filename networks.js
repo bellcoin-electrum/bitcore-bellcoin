@@ -18,7 +18,7 @@ exports.livenet = {
     merkle_root: hex('CE015BF5529992A4F4BC1B5AF92337BDAEF6A0107992ED3E8427A02DDFB2E0A1'),
     height: 0,
     nonce: 0,
-    version: 1,
+    version: 4,
     prev_hash: buffertools.fill(new Buffer(32), 0),
     timestamp: 1540301856,
     bits: 545259519,
