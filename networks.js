@@ -40,13 +40,13 @@ exports.testnet = {
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
-    hash: hex('43497FD7F826957108F4A30FD9CEC3AEBA79972084E90EAD01EA330900000000'),
-    merkle_root: hex('3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'),
+    hash: hex('0000000062962E8C104B7C9509155A161F3F7A1F1E1EDFAD535CAA9A99189AD7'),
+    merkle_root: hex('7F863DBE22EDE2E633E0A84B6C0C34BE1949B220AB3E296E00080B4CE695AC9B'),
     height: 0,
-    nonce: 414098458,
-    version: 1,
+    nonce: 2327604116,
+    version: 4,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1296688602,
+    timestamp: 1540301756,
     bits: 486604799,
   },
   dnsSeeds: [
