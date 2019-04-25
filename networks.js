@@ -14,14 +14,14 @@ exports.livenet = {
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('000008f3b6bd10c2d03b06674a006b8d9731f6cb58179ef1eee008cee2209603'),
-    merkle_root: hex('457e3d7e3c9a2af30454c0d1f65e8e3bd70dbbb53c7ced6ebc5c81af0194f450'),
+    hash: hex('039620E2CE08E0EEF19E1758CBF631978D6B004A67063BD0C210BDB6F3080000'),
+    merkle_root: hex('50F49401AF815CBC6EED7C3CB5BB0DD73B8E5EF6D1C05404F32A9A3C7E3D7E45'),
     height: 0,
     nonce: 96906,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
     timestamp: 1534543066,
-    bits: 507510783,
+    bits: 507510783,  // 0x1e3fffff
   },
   dnsSeeds: [
     "seed.bellcoin.web4u.jp"
@@ -48,7 +48,7 @@ exports.testnet = {
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
     timestamp: 1534543067,
-    bits: 507510783,
+    bits: 507510783,  // 0x1e3fffff
   },
   dnsSeeds: [
   ],
