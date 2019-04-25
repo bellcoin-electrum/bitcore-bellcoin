@@ -487,9 +487,9 @@ exports.ZERO_VALUE = buffertools.fill(new Buffer(8), 0);
 var INT64_MAX = new Buffer('ffffffffffffffff', 'hex');
 exports.INT64_MAX = INT64_MAX;
 
-// How much of XPChain's internal integer coin representation
-// makes 1 XPC 
-exports.COIN = 10000;
+// How much of Bitcoin's internal integer coin representation
+// makes 1 BTC
+exports.COIN = 100000000;
 exports.BIT = 100;
 
 var MAX_TARGET = exports.MAX_TARGET = new Buffer('00000000FFFF0000000000000000000000000000000000000000000000000000', 'hex');

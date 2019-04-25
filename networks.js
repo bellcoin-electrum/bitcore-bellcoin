@@ -6,48 +6,49 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('fc87bac0'),
-  addressVersion: 76,
+  magic: hex('facebabe'),
+  addressVersion: 25,
   privKeyVersion: 128,
-  P2SHVersion: 28,
-  bech32Prefix: 'xpc',
+  P2SHVersion: 85,
+  bech32Prefix: 'bm',
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('000000009f4a28557aad6be5910c39d40e8a44e596d5ad485a9e4a7d4d72937c'),
-    merkle_root: hex('daa610662c202dd51c892e6ff17ac1812a3ddcb998ec4923a3a315c409019739'),
+    hash: hex('000008f3b6bd10c2d03b06674a006b8d9731f6cb58179ef1eee008cee2209603'),
+    merkle_root: hex('457e3d7e3c9a2af30454c0d1f65e8e3bd70dbbb53c7ced6ebc5c81af0194f450'),
     height: 0,
-    nonce: 1280281997,
-    version: 4,
+    nonce: 96906,
+    version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1540301656,
-    bits: 486604799,
+    timestamp: 1534543066,
+    bits: 507510783,
   },
   dnsSeeds: [
+    "seed.bellcoin.web4u.jp"
   ],
-  defaultClientPort: 8798
+  defaultClientPort: 25253
 };
 
 exports.mainnet = exports.livenet;
 
 exports.testnet = {
   name: 'testnet',
-  magic: hex('fc87bac0'),
-  addressVersion: 138,
+  magic: hex('0b110907'),
+  addressVersion: 111,
   privKeyVersion: 239,
-  P2SHVersion: 138,
-  bech32Prefix: 'txpc',
+  P2SHVersion: 196,
+  bech32Prefix: 'bt',
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
-    hash: hex('00000000f04d3bdebf907f79b4b096a05d763ac890612202ff9c9cc685221617'),
-    merkle_root: hex('daa610662c202dd51c892e6ff17ac1812a3ddcb998ec4923a3a315c409019739'),
+    hash: hex('0000028cd51c8f4dc7458715c50534866c3eb18ebbe555d39ab3ba1cec1a3f59'),
+    merkle_root: hex('457e3d7e3c9a2af30454c0d1f65e8e3bd70dbbb53c7ced6ebc5c81af0194f450'),
     height: 0,
-    nonce: 3632110353,
-    version: 4,
+    nonce: 149086,
+    version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1540301756,
-    bits: 486604799,
+    timestamp: 1534543067,
+    bits: 507510783,
   },
   dnsSeeds: [
   ],
