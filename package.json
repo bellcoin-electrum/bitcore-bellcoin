@@ -74,7 +74,7 @@
     "protobufjs": "^6.8.8",
     "sjcl": "=1.0.1",
     "socks5-client": "~0.3.6",
-    "bellcoin-yespower": "git://github.com/bellcoin-electrum/node-bellcoin-yespower.git",
+    "bellcoin-yespower": "*",
     "bech32": "git://github.com/bitcoinjs/bech32.git"
   },
   "testling": {
